@@ -39,7 +39,7 @@ button.addEventListener('click', () => {
 Q: Create a form in HTML with a text input and a submit button. Use JavaScript to display the value of the text input when the form is submitted.
 
 ```js
-<form id="myForm">
+<form id="myForm" action="#">
   <input type="text" id="myInput">
   <input type="submit" value="Submit">
 </form>
