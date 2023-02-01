@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5rem;
+  margin: 0;
+  box-sizing: border-box;
+}
+body #joke-image {
+  height: 20%;
+}
+body #joke-text {
+  margin: 2rem 0;
+  text-align: center;
+}
+body #new-joke-button {
+  background-color: blue;
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.1rem;
+}
+body #new-joke-button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}/*# sourceMappingURL=style.css.map */
